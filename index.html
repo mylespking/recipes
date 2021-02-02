@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Meta description -->
+    <meta name="description" content="Step by step guide to some of my favourite recipes">
+    <meta name="author" content="Myles King">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="cook.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="./packages/bootstrap/css/bootstrap.min.css">
+
+    <!-- Latest compiled and minified bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="./packages/bootstrap/bootstrap-select.min.css">
+
+    <!-- Google Font for Title -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+    <!-- Spin css link -->
+    <link rel="stylesheet" type="text/css" href="./packages/spin/spin.css">
+
+    <!-- Css link -->
+    <link rel="stylesheet" type="text/css" href="./css/css.css">
+
+    <title>Myles' Recipes</title>
+
+  </head>
+ 
+  <body>
+    
+    <!-- Nav bar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark" id="nav">
+      <a class="navbar-brand abs" id="title" href=".">Myles' Recipes</a>
+    </nav>
+
+    <!-- Main content --> 
+    <div id="main">
+      <div class="container">
+        <div class="row justify-content-around">
+          <div class="col-11 col-md-6">
+            <div class="container">
+              <div class="row justify-content-around" id="holder">
+                <ul>
+                  <li id="gameType"> Baking </li>
+                  <li class="recipeButton" id="tChocCookies" data-toggle="modal"  data-target="#recipeModal" title="Triple Chocolate Cookies"> Triple Chocolate Cookies </li>
+                </ul>
+              </div>
+            </div> 
+          </div>
+          <div class="col-11 col-md-6">
+            <div class="container">
+              <div class="row justify-content-around" id="holder">
+                <ul>
+                  <li id="gameType"> Classics </li>
+                  <li class="recipeButton" id="ppTaco" data-toggle="modal"  data-target="#recipeModal" title="Pulled Pork Tacos"> Mexican Pulled Pork Tacos </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Recipe Modal modal -->
+    <div>
+      <div class="modal fade add" id="recipeModal" role="dialog">
+        <div class="modal-dialog modal-dialog-centered add">  
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title" id="modalTitle"></h4>
+              <button type="button" class="close" data-dismiss="modal">x</button>
+            </div>
+            <div class="modal-body" id="modalContent">
+              <canvas id="gameCanvas" width="400" height="400"></canvas>
+            </div>
+              <div class="modal-footer" id="modalFoot">
+            </div>
+          </div>  
+        </div>
+      </div>
+    </div>
+
+     
+    <!-- Bootsrap required javascript - jQuery first, then Popper.js, then Bootstrap JS as stated in Bootstrap documentation-->
+    <script type="text/javascript" src="./packages/bootstrap/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="./packages/bootstrap/popper.min.js" ></script>
+    <script type="text/javascript" src="./packages/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Latest compiled and minified bootstrap JavaScript -->
+    <script type="text/javascript" src="./packages/bootstrap/bootstrap-select.min.js"></script>
+
+    <!-- Spinner JS -->
+    <script type="text/javascript" src="./packages/spin/spin.umd.js"></script>
+
+    <!-- JavaScript -->
+    <script type="text/javascript" src="./js/js.js"></script>
+  
+  </body>
+
+</html>
+
+
+

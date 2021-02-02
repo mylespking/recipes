@@ -1,0 +1,71 @@
+/* Set parent element of the map div to the full height of the viewport so the map in the div can be fullscreen (100% of the screen)*/
+html, body {
+    margin:0px;
+    height: calc(100% - 35px);
+  }
+
+/* Set the height to 100% of device */
+#mapid { 
+    height: 100%; 
+}
+
+/* Set div including map to full height minus somesize to get rid of scroll bar using calc function */
+#content {
+  height: 100%;
+}
+
+/* Set custom font for app name */
+#title {
+  font-family: 'Pacifico', cursive;;
+  font-size: 28px;
+  color: black;
+}
+
+/* Set custom background for nav bar */
+#nav {
+  background: rgb(131,58,180);
+  background: linear-gradient(180deg,rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+  border-bottom: 2px solid black;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+  margin: 0 0 0 0;
+  background: rgb(131,58,180);
+  background: linear-gradient(0deg,rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+
+#holder {
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: -webkit-center;
+  margin: 5px;
+}
+
+#gameType {
+  font-weight: 500;
+  font-size: x-large;
+  border-bottom: 2px solid currentColor;
+  display: inline-block;
+  line-height: 0.85;
+  font-family: 'Pacifico', cursive;;
+  font-size: 28px;
+  color: black;
+}
+
+.gameButton {
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+li {
+  margin: 2px;
+}
