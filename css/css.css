@@ -1,4 +1,4 @@
-/* Set parent element of the map div to the full height of the viewport so the map in the div can be fullscreen (100% of the screen)*/
+/* Set parent element of the map div to the full height of the viewport so the app in the div can be fullscreen (100% of the screen)*/
 html, body {
     margin:0px;
     height: calc(100% - 35px);
@@ -9,7 +9,7 @@ html, body {
     height: 100%; 
 }
 
-/* Set div including map to full height minus somesize to get rid of scroll bar using calc function */
+/* Set div to full height */
 #content {
   height: 100%;
 }
@@ -44,7 +44,7 @@ html, body {
   margin: 5px;
 }
 
-#gameType {
+#recipeType {
   font-weight: 500;
   font-size: x-large;
   border-bottom: 2px solid currentColor;
@@ -55,7 +55,7 @@ html, body {
   color: black;
 }
 
-.gameButton {
+.recipeButton {
   border: 2px solid black;
   border-radius: 10px;
   padding: 5px;
